@@ -1,0 +1,13 @@
+.submitButton {
+  background-color: var(--primary-color);
+  width: 100%;
+}
+.submitButton:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+.description {
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 1.1rem;
+}

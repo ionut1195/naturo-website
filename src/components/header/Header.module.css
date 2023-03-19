@@ -1,0 +1,100 @@
+.header {
+  background-color: white !important;
+}
+.navLinks {
+  list-style-type: none;
+  width: 40%;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.link {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 600;
+  flex-shrink: 1;
+}
+.openCartLink {
+  margin-right: 5px;
+}
+.link:hover {
+  color: var(--secondary-color);
+}
+
+.logo {
+  background-image: url("/public/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100%;
+}
+
+.headerContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.mobileNavLinks {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: -100%;
+  position: fixed;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  z-index: 10;
+}
+
+.mobileNavOpen {
+  left: 0;
+}
+
+.closeIcon {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+.closeIcon:hover {
+  color: red;
+}
+.headerOpenCart {
+  width: 100%;
+}
+@media screen and (min-width: 800px) {
+  .headerOpenCart {
+    width: calc(100% - 403px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .headerContent {
+    width: 85%;
+  }
+  .menu {
+    display: none;
+  }
+  .navLinks {
+    display: flex;
+  }
+}
