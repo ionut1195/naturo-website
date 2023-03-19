@@ -1,0 +1,12 @@
+.title {
+  font-family: "Quicksand", sans-serif;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  scale: 1.1;
+}

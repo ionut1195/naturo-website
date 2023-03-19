@@ -1,0 +1,55 @@
+.aboutSection {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.description {
+  font-family: qicksand;
+  text-align: center;
+}
+
+.cardsContainer {
+  display: grid;
+  row-gap: 30px;
+  padding: 40px 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding: 40px 30px;
+  }
+}
+
+.arrow {
+  font-size: 24px;
+  right: 30px;
+  bottom: 30px;
+  position: fixed;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  color: var(--secondary-color);
+}
+
+.visible {
+  visibility: visible;
+}
+
+.notVisible {
+  visibility: hidden;
+}
+
+.arrow:hover,
+.arrow:active {
+  color: var(--secondary-color);
+}

@@ -1,0 +1,96 @@
+.cardBodyContainer {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.cartCardBodyContainer {
+  display: flex;
+  align-content: center;
+}
+.image {
+  max-height: 300px;
+}
+
+.cartImage {
+  width: 60px !important;
+  height: 60px !important;
+}
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cartImageContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.productCard {
+  display: flex;
+  cursor: default;
+}
+
+.productInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: quicksand;
+}
+.margin {
+  margin: 10px 0px;
+}
+
+.cartIcon {
+  margin-right: 10px;
+}
+
+.addToCart {
+  margin-top: 15px;
+  font-size: 16px;
+  background-color: var(--primary-color);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addToCart:hover,
+.addToCart:active {
+  background-color: var(--secondary-color) !important;
+}
+
+.input {
+  width: 100%;
+}
+
+.cartInput {
+  width: 45%;
+}
+
+.qtyPriceContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.removeItemFromCart {
+  font-size: 18px;
+  color: red;
+  align-self: center;
+  cursor: pointer;
+}
+
+.toggleNumberButton {
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+}
