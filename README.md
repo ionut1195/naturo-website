@@ -1,4 +1,4 @@
-## Project link https://naturo-store.vercel.app
+## Project link  https://naturo-store.vercel.app
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
