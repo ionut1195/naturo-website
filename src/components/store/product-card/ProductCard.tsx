@@ -112,14 +112,16 @@ const ProductCard = ({
             value={isCartItem ? product.qty : number}
           />
           {!isCartItem ? (
-            <Button
-              className={styles.addToCart}
-              type="primary"
-              icon={<FaShoppingCart className={styles.cartIcon} />}
-              onClick={onSubmit}
-            >
-              Add to cart
-            </Button>
+            <div className={styles.addToCartContainer}>
+              <Button
+                className={styles.addToCart}
+                type="primary"
+                icon={<FaShoppingCart className={styles.cartIcon} />}
+                onClick={onSubmit}
+              >
+                Add to cart
+              </Button>
+            </div>
           ) : undefined}
         </div>
       </div>

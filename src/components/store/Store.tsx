@@ -155,7 +155,6 @@ const Store = () => {
       },
     });
   };
-
   return (
     <Content
       className={`${styles.content} ${
@@ -164,16 +163,18 @@ const Store = () => {
     >
       <div className={styles.filtersContainer}>
         <div className={styles.checkboxes}>
-          <div className={styles.checkbox}>
+          <div className={styles.checkboxContainer}>
             <span>Fruits</span>
             <Checkbox
+              className={styles.checkbox}
               onChange={() => toggleCheckbox("fruits")}
               checked={state.fruitsChecked}
             />
           </div>
-          <div className={styles.checkbox}>
+          <div className={styles.checkboxContainer}>
             <span>Legumes</span>
             <Checkbox
+              className={styles.checkbox}
               onChange={() => toggleCheckbox("legumes")}
               checked={state.legumesChecked}
             />

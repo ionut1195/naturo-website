@@ -31,8 +31,12 @@
 .productCard {
   display: flex;
   cursor: default;
+  max-width: 450px;
 }
-
+.addToCartContainer {
+  display: flex;
+  justify-content: center;
+}
 .productInfo {
   display: flex;
   justify-content: space-between;
