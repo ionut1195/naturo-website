@@ -49,10 +49,10 @@ const About = () => {
         Our goal
       </Typography.Title>
       <p className={styles.text}>
-        Our mission natuRo was founded with a vision of providing everyone with
-        access to healthy, organic food that is sourced directly from nature's
-        bounty. We strive to make sure that everyone has access to the freshest
-        produce available at an affordable price.
+        NatuRo was founded with a vision of providing everyone with access to
+        healthy, organic food that is sourced directly from nature's bounty. We
+        strive to make sure that everyone has access to the freshest produce
+        available at an affordable price.
       </p>
       <Typography.Title className={styles.description} level={2}>
         Why choose <span className="firstPart">Natu</span>
