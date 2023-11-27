@@ -10,7 +10,9 @@
   align-content: center;
 }
 .image {
-  max-height: 300px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .cartImage {
@@ -21,6 +23,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  max-height: 300px;
+  height: 100%;
 }
 
 .cartImageContainer {

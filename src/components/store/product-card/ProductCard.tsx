@@ -55,10 +55,10 @@ const ProductCard = ({
             isCartItem ? styles.cartImageContainer : styles.imageContainer
           }
         >
-          <Image
+          <img
+            alt="product"
             loading="lazy"
             className={isCartItem ? styles.cartImage : styles.image}
-            preview={false}
             src={product.img}
           />
         </div>
